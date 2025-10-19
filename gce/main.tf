@@ -11,6 +11,8 @@ resource "google_compute_instance" "vm" {
     subnetwork = var.subnet_id
     access_config {}
   } 
+  metadata_script=""
 }
+
 
 
